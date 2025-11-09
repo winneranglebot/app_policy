@@ -1,4 +1,5 @@
 [InternetShortcut]
-Terms_URL=https://winneranglebot.github.io/app_policy/terms.html
-Privacy_URL=https://winneranglebot.github.io/app_policy/privacy.html
-Opensource_URL=https://winneranglebot.github.io/app_policy/opensource.html
+TERMS_OF_SERVICE=https://winneranglebot.github.io/app_policy/terms.html
+PRIVACY_AGREEMENT=https://winneranglebot.github.io/app_policy/privacy_agreement.html
+PRIVACY_POLICY=https://winneranglebot.github.io/app_policy/privacy.html
+OPENSOURCE_LICENSE=https://winneranglebot.github.io/app_policy/opensource.html
