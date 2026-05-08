@@ -29,7 +29,8 @@
     <ul>
         <li>회원 식별, 인증, 부정이용 방지 등 회원 관리</li>
         <li>직관 기록, 경기 예측, 랭킹, 커뮤니티, 친구/그룹 등 핵심 서비스 제공</li>
-        <li>이메일 인증, 비밀번호 찾기 등 본인 확인</li>
+        <li>일반 회원: 이메일 인증, 아이디·비밀번호 찾기 등 본인 확인</li>
+        <li>소셜 회원: Google, Apple, Kakao 등 소셜 제공자의 계정을 통한 본인 확인 및 회원 식별</li>
         <li>고객 문의 응대 및 공지사항 전달</li>
     </ul>
 
@@ -43,8 +44,19 @@
         </thead>
         <tbody>
             <tr>
-                <td><strong>필수 항목</strong><br>(회원가입 시)</td>
+                <td><strong>필수 항목</strong><br>(일반 회원가입 시)</td>
                 <td>아이디(ID), 이메일, 비밀번호(암호화), 닉네임, 친구 코드</td>
+            </tr>
+            <tr>
+                <td><strong>필수 항목</strong><br>(소셜 회원가입 시)</td>
+                <td>
+                    소셜 제공자(Google/Apple/Kakao)의 고유 식별자(provider ID), 가입 경로(GOOGLE/APPLE/KAKAO),
+                    자동 생성된 아이디(ID), 닉네임, 친구 코드<br>
+                    <span style="font-size: 0.9em; color: #555;">
+                        ※ 소셜 회원의 이메일 주소·실명·프로필 사진 등 소셜 제공자가 제공하는 추가 정보는 저장하지 않습니다.<br>
+                        ※ Apple 로그인 시 "이메일 가리기(Private Relay)" 기능을 사용해도, 해당 이메일은 저장하지 않습니다.
+                    </span>
+                </td>
             </tr>
             <tr>
                 <td><strong>선택 항목</strong><br>(해당 기능 최초 이용 시)</td>
@@ -56,12 +68,13 @@
             </tr>
         </tbody>
     </table>
-    <p style="padding-left: 0; font-size: 0.9em; color: #555;">* 사진 첨부 기능 이용 시 기기의 사진첩 또는 카메라 접근 권한이 필요할 수 있습니다.</p>
+    <p style="padding-left: 0; font-size: 0.9em; color: #555;">* 사진 첨부 기능 이용 시 기기의 사진첩 또는 카메라 접근 권한이 필요할 수 있습니다. 업로드된 사진은 GPS 등 EXIF 메타데이터가 자동 제거된 후 저장됩니다.</p>
 
     <h2>3. 보유 및 이용 기간</h2>
     <ul>
         <li><strong>원칙: 회원 탈퇴 시까지</strong></li>
         <li>예외: 부정이용 방지 및 법령상 의무 이행을 위해, 탈퇴 요청 시 비활성화 처리 후 <strong>관련 법령 및 내부 방침에 따라 일정 기간(최대 5년) 보관</strong>한 뒤 복구 불가능한 방법으로 완전 파기합니다. (상세 내용은 '개인정보 처리방침' 제 3조 참고)</li>
+        <li>탈퇴 시 첨부된 사진 파일(직관 기록, 커뮤니티 게시물, 공유 티켓)은 외부 저장소에서 즉시 파기됩니다.</li>
     </ul>
 
     <h2>4. 동의 거부 권리 및 불이익</h2>
@@ -69,6 +82,8 @@
     <p style="padding-left: 0; margin-top: 20px;">
         ※ 그 밖의 개인정보 처리에 관한 상세한 사항은 <strong>'개인정보 처리방침'</strong>을 참고하시기 바랍니다.
     </p>
+
+    <p style="padding-left: 0; margin-top: 30px; font-size: 0.9em; color: #555;">- 시행일자: 2026년 5월 16일 (이전 시행일: 2026년 2월 6일)</p>
 
 </body>
 </html>
